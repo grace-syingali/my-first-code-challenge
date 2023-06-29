@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")();
 const basicSalary = parseFloat(prompt("Enter the basic salary:"));
 const benefits = parseFloat(prompt("Enter the benefits:"));
 

@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")();
 const speed = parseInt(prompt("Enter the speed of the car (in km/h):"));
 
 const speedLimit = 70;

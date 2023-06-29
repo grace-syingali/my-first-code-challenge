@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")();
 const marks = parseFloat(prompt("Enter the student's marks:"));
 
 if (isNaN(marks) || marks < 0 || marks > 100) {
